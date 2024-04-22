@@ -21,7 +21,19 @@ private:
 	string namaMk;
 	int sks;
 public:
+	void input() {
+		cout << "Kode MK : ";
+		cin >> kodeMk;
+		cout << "Nama MK : ";
+		cin >> namaMk;
+		cout << "SKS : ";
+		cin >> sks;
+	}
 
+	void output() {
+		cout << "Kode MK : " << kodeMk << endl;
+		cout << ""
+	}
 };
 
 int main()
