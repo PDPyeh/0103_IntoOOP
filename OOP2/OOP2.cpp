@@ -6,7 +6,7 @@ class Mahasiswa {
 public:
 	string nama;
 	int umur;
-	string jurusan
+	string jurusan;
 
 		void output() {
 		cout << "Nama : " << nama << endl;
@@ -32,12 +32,25 @@ public:
 
 	void output() {
 		cout << "Kode MK : " << kodeMk << endl;
-		cout << ""
+		cout << "Nama MK : " << namaMk << endl;
+		cout << "SKS : " << sks << endl;
 	}
 };
 
 int main()
 {
-   
+	Mahasiswa mhs;
+	Matakuliah mk;
+
+	mhs.nama = " Dipak ";
+	mhs.umur = 19;
+	mhs.jurusan = "Teknologi Informasi";
+	mhs.output();
+
+	mk.input();
+	mk.output();
+
+	return 0;
+
 }
 
