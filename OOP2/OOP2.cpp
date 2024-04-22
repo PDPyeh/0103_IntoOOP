@@ -15,6 +15,10 @@ public:
 	}
 };
 
+class Matakuliah {
+
+};
+
 int main()
 {
    
